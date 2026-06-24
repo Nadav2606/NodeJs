@@ -1,3 +1,116 @@
-h1 {
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(#212b3f, #263d69);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  line-height: 1.5;
+}
+
+main {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+main h2 {
+  margin-bottom: 20px;
   text-align: center;
+}
+
+main li {
+  text-align: center;
+}
+
+header {
+  text-align: center;
+  margin: 15px 0;
+}
+
+header img {
+  width: 200px;
+}
+
+header h1 {
+  font-size: 50px;
+  background: -webkit-linear-gradient(#eee, #5a5656);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+header p {
+  font-size: 30px;
+  background: -webkit-linear-gradient(#f3d6d6, #938787);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 50px;
+}
+
+.player-details {
+  padding: 20px;
+  background-color: #6b855d;
+  box-shadow: 0 2px 8px rgb(36, 32, 32);
+}
+
+.player-details ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.player-details li {
+  width: 250px;
+}
+
+.player-details li img {
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+  justify-content: center;
+}
+
+.player-details menu {
+  margin: 12px auto;
+  display: flex;
+  text-align: center;
+  gap: 12px;
+}
+
+.player-details button {
+  padding: 5px 20px;
+  border: none;
+  background-color: transparent;
+  color: snow;
+  cursor: pointer;
+  font-size: 15px;
+  transition: all 0.2s ease-in-out;
+}
+
+.player-details button:hover {
+  background-color: rgb(51, 118, 51);
+}
+
+.actions {
+  margin: 12px auto;
+}
+
+.actions h3 {
+}
+
+.actions img {
+  width: 50%;
+}
+
+.actions p {
+  text-align: center;
+  font-size: larger;
+}
+
+.fallback {
+  padding: 10px;
 }
