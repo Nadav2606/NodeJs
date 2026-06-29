@@ -1,0 +1,41 @@
+.deleteConfirmation {
+  padding: 20px;
+}
+
+.deleteConfirmation h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: rgb(13, 13, 62);
+  margin-bottom: 4px;
+}
+
+.deleteConfirmation p {
+  font-size: 15px;
+  color: rgb(25, 25, 120);
+}
+
+.ConfirmationActions {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.ConfirmationActions .green {
+  cursor: pointer;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  padding: 4px;
+  border: none;
+  box-shadow: 0 2px 4px black;
+  color: white;
+  background-color: green;
+}
+
+.ConfirmationActions .red {
+  cursor: pointer;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  padding: 4px;
+  border: none;
+  box-shadow: 0 2px 4px black;
+  color: white;
+  background-color: red;
+}
